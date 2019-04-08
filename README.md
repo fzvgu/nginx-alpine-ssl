@@ -16,4 +16,4 @@ default.conf maps certs to example.key and example.crt:
 -------------
 Build adds a default user to the .htpasswd: `user` with `SecretPassword`, which should be changed
 
-`docker exec  <coantiner> htpasswd -b /etc/apache2/.htpasswd user <newpassword>`
+`docker exec  <container> htpasswd -b /etc/apache2/.htpasswd user <newpassword>`
